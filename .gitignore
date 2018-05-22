@@ -1,2 +1,5 @@
 # DevC++ ignores
 *.dev
+*.o
+*.win
+*.exe

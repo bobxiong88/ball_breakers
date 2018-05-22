@@ -1,20 +1,16 @@
-#include "brick.h" //include the brick class
 #include <stdio.h> //displaying
 #include <conio.h> //detecting key presses
 
-// I don't know what this is so I'll just comment it out
-// char view[
+#include "brick.h" //include the brick class
+#include "world.h" //include the world class
+#include "ball.h"  //include the ball class
 
-void display()
-{
-  
-}
+//temporary since I dont really know how to use C output statements yet
+#include <iostream>
+using namespace std;
+//
 
 int main()
 {
-  for()
-  {
-    
-  }
+	world World;
 }
-

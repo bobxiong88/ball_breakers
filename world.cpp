@@ -1,12 +1,13 @@
 #include "world.h"
 //Contructor that sets of values of world to blanks
+
 world::world()
 {	
-	for (int x = 20; x < 20; x++)
+	for (int x = 0; x < 20; x++)
 	{
-		for (int y = 20; y < 20; y++)
+		for (int y = 0; y < 20; y++)
 		{
-			m_world [x][y] = ' ';
+			m_world [x][y] = 'a';
 		}
 	}
 }

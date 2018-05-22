@@ -7,7 +7,7 @@ world::world()
 	{
 		for (int y = 0; y < 20; y++)
 		{
-			m_world [x][y] = 'a';
+			m_world [x][y] = ' ';
 		}
 	}
 }

@@ -29,6 +29,13 @@ Setting up Devc++:
 - Click on the main.cpp file and click compile on the top menu of devc++
 - If the project compiles, congratulations! You have setup the working environment and can begin coding!
 
+Commiting a change:
+- Once you have made some changes to the game in your ide, you can commit these changes by pressing the commit button in your github 
+  desktop window (remember to add a title and description too!).
+- Remember to ALWAYS commit to the develop branch and not the master branch! This is very important! The master branch is the main game
+  and if something goes wrong we have to undo a ton of commits heavily impacting development speed!
+
 If anything goes wrong feel free to ask me personally on discord
 
+Remember to fetch the project frequently as others may add new things too!
 

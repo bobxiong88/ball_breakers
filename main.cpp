@@ -17,11 +17,13 @@ using namespace std;
 //Main function
 int main()
 {
+	//The world object
 	world World;
 	
-	char key;
-	int acsiiValue;
+	char key;        //Stores keypresses
+	int acsiiValue;  //Stores the ID of the keypresses
 	
+	//Loop that runs until broken out of
 	while (true)
 	{
 		//I know this isn't the best way to do it, but its good enough for now
@@ -43,8 +45,8 @@ int main()
 		}
 		//
 		
-		//Variables for getting input
-		key=getch();
+		//Listening for keypresses
+		key = getch();
 		acsiiValue = key;
 		//
 		

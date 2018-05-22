@@ -3,8 +3,6 @@
 #include <vector>
 using namespace std;
 
-
-
 struct coords
 {
 	int x = 0;

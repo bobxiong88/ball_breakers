@@ -1,6 +1,6 @@
 #include "world.h"
-//Contructor that sets of values of world to blanks
 
+//Contructor that sets all the values of world to blanks by default
 world::world()
 {	
 	for (int x = 0; x < 20; x++)

@@ -11,8 +11,8 @@ struct coords{
 };
 
 struct brick{
-	vector<coord> brickCoords;
-		
+	vector<coords> brickCoords;
+
 };
 
 

@@ -1,8 +1,7 @@
 #ifndef SLIDER_H
 #define SLIDER_H
 
-struct slider
-{
+struct slider {
 	slider ();
 };
 

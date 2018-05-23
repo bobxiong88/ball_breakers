@@ -15,8 +15,7 @@ using namespace std;
 //
 
 //Main function
-int main()
-{
+int main() {
 	//The world object
 	world World;
 	
@@ -24,8 +23,7 @@ int main()
 	int acsiiValue;  //Stores the ID of the keypresses
 	
 	//Loop that runs until broken out of
-	while (true)
-	{
+	while (true) {
 		//I know this isn't the best way to do it, but its good enough for now
 		//This function sleeps in microseconds
 		//1000 microseconds = 1 millisecond
@@ -36,10 +34,8 @@ int main()
 		system ("cls");
 		
 		//Display the world
-		for (int x = 0; x<20;x++)
-		{
-			for (int y = 0; y<20; y++)
-			{
+		for (int x = 0; x<20;x++) {
+			for (int y = 0; y<20; y++) {
 				cout << World.m_world [x][y];
 			}cout << endl;
 		}
@@ -51,8 +47,7 @@ int main()
 		//
 		
 		//The exit keys, remember to add the lowercase and uppercase if the key is a letter!
-		if (acsiiValue == 27 || acsiiValue == 80 || acsiiValue == 112)
-		{
+		if (acsiiValue == 27 || acsiiValue == 80 || acsiiValue == 112) {
 			break;
 		}
 		//		

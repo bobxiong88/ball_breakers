@@ -1,6 +1,5 @@
 #include "slider.h"
 
-slider::slider()
-{
+slider::slider() {
 	
 }
